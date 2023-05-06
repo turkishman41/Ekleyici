@@ -93,7 +93,7 @@ class Config:
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Turkic:Turkic@turkic.owgjdvr.mongodb.net/?retryWrites=true&w=majority")
 
     PRE_LOG = os.environ.get("PRE_LOG", "-1001575556771")
-    STRING_SESSION = os.environ.get('STRING_SESSION', '')
+    STRING_SESSION = os.environ.get('STRING_SESSION', 'BAAK_517ygaHkE3t5-6a8x317sQA-N8p1VqRNh94hX-qh36QInWun_OiF1BHMPROrM6yxA3zTLq-i9LlZSXxYpq7FctMykf1nF7Pr6bsOmRAzPD2kFipOpihptxuiC8HIMxyTw35kgx1laaZA_Z_yX60_dW35HZpASZMePWMp2dbZOqrSu4GWn0EobcTH0ncciSMhYr4-RnIxsl8nD7QXzGEC51YkJFZFJ9XGSycM2B6kcI2CvA2Mpm34X6nCXUG4oE9Xb83emPJL1knETGHw9TRalUSryddI6-9NQTVjhRhCkHD7fmxziToMbf3l9VdMRYpyyrsj2f55VTmLEPK1WJ3AAAAAWNHLCsA')
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     MAX_FILE_SIZE = 50000000
     TG_MAX_FILE_SIZE = 4200000000
