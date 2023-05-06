@@ -78,21 +78,21 @@ class Config:
     DEF_WATER_MARK_FILE = ""
     ENCODE_DIR = 'encodes'
     MOLY_LINKLERI = list(set(x for x in environ.get("MOLY_LINKLERI", ".cloud").split()))
-    APP_ID = os.environ.get("APP_ID", None)
-    API_HASH = os.environ.get("API_HASH", None)
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    APP_ID = os.environ.get("APP_ID", "1317481")
+    API_HASH = os.environ.get("API_HASH", "e5f7a25123dca9d734516cde8ae4c374")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5947534274:AAEmY-91HrtD2sYSiinRIyB6rY1BxOU5bXk")
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     DOWNLOAD_LOCATION = 'downloads'
     DOWNLOAD_DIR = 'downloads'
-    OWNER_ID = os.environ.get("OWNER_ID", '1276627253') 
+    OWNER_ID = os.environ.get("OWNER_ID", '965221088') 
     DEPO = os.environ.get("DEPO", None)
-    SESSION_NAME = os.environ.get("SESSION_NAME", "")
-    STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS") 
-    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "DTO41")
+    STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "") 
+    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "")
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Turkic:Turkic@turkic.owgjdvr.mongodb.net/?retryWrites=true&w=majority")
 
-    PRE_LOG = os.environ.get("PRE_LOG", "")
+    PRE_LOG = os.environ.get("PRE_LOG", "-1001575556771")
     STRING_SESSION = os.environ.get('STRING_SESSION', '')
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     MAX_FILE_SIZE = 50000000
