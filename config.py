@@ -78,9 +78,9 @@ class Config:
     DEF_WATER_MARK_FILE = ""
     ENCODE_DIR = 'encodes'
     MOLY_LINKLERI = list(set(x for x in environ.get("MOLY_LINKLERI", ".cloud").split()))
-    APP_ID = os.environ.get("APP_ID", "1317481")
-    API_HASH = os.environ.get("API_HASH", "e5f7a25123dca9d734516cde8ae4c374")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5947534274:AAEmY-91HrtD2sYSiinRIyB6rY1BxOU5bXk")
+    APP_ID = os.environ.get("APP_ID", None)
+    API_HASH = os.environ.get("API_HASH", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     DOWNLOAD_LOCATION = 'downloads'
     DOWNLOAD_DIR = 'downloads'
@@ -90,10 +90,10 @@ class Config:
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "") 
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "")
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Turkic:Turkic@turkic.owgjdvr.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
     PRE_LOG = os.environ.get("PRE_LOG", "-1001575556771")
-    STRING_SESSION = os.environ.get('STRING_SESSION', 'BAAK_517ygaHkE3t5-6a8x317sQA-N8p1VqRNh94hX-qh36QInWun_OiF1BHMPROrM6yxA3zTLq-i9LlZSXxYpq7FctMykf1nF7Pr6bsOmRAzPD2kFipOpihptxuiC8HIMxyTw35kgx1laaZA_Z_yX60_dW35HZpASZMePWMp2dbZOqrSu4GWn0EobcTH0ncciSMhYr4-RnIxsl8nD7QXzGEC51YkJFZFJ9XGSycM2B6kcI2CvA2Mpm34X6nCXUG4oE9Xb83emPJL1knETGHw9TRalUSryddI6-9NQTVjhRhCkHD7fmxziToMbf3l9VdMRYpyyrsj2f55VTmLEPK1WJ3AAAAAWNHLCsA')
+    STRING_SESSION = os.environ.get('STRING_SESSION', '')
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     MAX_FILE_SIZE = 50000000
     TG_MAX_FILE_SIZE = 4200000000
