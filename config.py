@@ -84,7 +84,7 @@ class Config:
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     DOWNLOAD_LOCATION = 'downloads'
     DOWNLOAD_DIR = 'downloads'
-    OWNER_ID = os.environ.get("OWNER_ID", '965221088') 
+    OWNER_ID = os.environ.get("OWNER_ID", "965221088") 
     DEPO = os.environ.get("DEPO", None)
     SESSION_NAME = os.environ.get("SESSION_NAME", "DTO41")
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "") 
